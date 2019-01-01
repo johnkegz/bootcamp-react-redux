@@ -1,5 +1,5 @@
 import React from "react";
-import { PostQuestionAction } from "../../actions/PostQuestionAction";
+import { PostQuestionAction } from "../../actions/postQuestionAction";
 import { connect } from "react-redux";
 
 export class PostQuestion extends React.Component {

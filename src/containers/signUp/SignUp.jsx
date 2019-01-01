@@ -20,7 +20,7 @@ export class SignUp extends React.Component {
       email: this.state.email,
       pass_word: this.state.password
     };
-    this.props.signUpAction(data);
+    this.props.signupAction(data);
   };
 
   editDataHeading() {
@@ -135,7 +135,7 @@ export const mapStateToProps = state => {
   };
 };
 export const mapDispatchToProps = dispatch => ({
-  signUpAction: data => dispatch(signUpAction(data))
+  signupAction: data => dispatch(signUpAction(data))
 });
 export default connect(
   mapStateToProps,
