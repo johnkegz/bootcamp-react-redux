@@ -1,3 +1,9 @@
 body{
     background-color: grey;
 }
+.sign-up-button{
+    background-color: green;
+}
+.body-container{
+    padding-top: 50px;
+}
