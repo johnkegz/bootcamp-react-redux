@@ -1,4 +1,5 @@
 {
+
     "name": "bootcamp-react-redux",
     "version": "1.0.0",
     "description": "stackoverflow lite react project",
@@ -69,4 +70,4 @@
       }
     }
   }
-  
+
