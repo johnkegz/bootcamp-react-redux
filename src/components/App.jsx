@@ -5,6 +5,7 @@ import { Provider } from "react-redux";
 import Home from "./Home";
 import Page from "./Page";
 import SignUp from "../containers/signUp/SignUp";
+import Login from "../containers/login/Login";
 const App = () => (
   <Provider store={store}>
     <Router>
@@ -14,6 +15,7 @@ const App = () => (
             <Route exact path="/" component={Home} />
             <Route path="/home" component={Home} />
             <Route path="/signup" component={SignUp} />
+            <Route path="/login" component={Login} />
           </div>
         </Page>
       </React.Fragment>
