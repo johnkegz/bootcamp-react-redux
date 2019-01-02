@@ -15,7 +15,7 @@ displaySIngleQuestion(questionId){
 editDataHeading() {
   return (
     <div className="card-header unique-color-dark  white-text text-center mt-0 py-4">
-      <img src={"src/components/water.jpg"} className="img-responsive" />
+      <img src={"https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"} className="img-responsive" />
     </div>
   );
 }
