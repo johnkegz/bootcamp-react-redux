@@ -20,7 +20,6 @@ editDataHeading() {
   );
 }
 
-
 showEditData() {
   
   if(this.props.ViewAllQuestionResults.item){
