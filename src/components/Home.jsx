@@ -15,7 +15,7 @@ displaySIngleQuestion(questionId){
 editDataHeading() {
   return (
     <div className="card-header unique-color-dark  white-text text-center mt-0 py-4">
-      <span>Stackoverflow lite</span>
+      <img src={"src/components/water.jpg"} className="img-responsive" />
     </div>
   );
 }
@@ -27,16 +27,16 @@ showEditData() {
     
   return Array.from(this.props.ViewAllQuestionResults.item).map(data => (
     <div key={data.question_id}>
-   <div>{data.question_id}<span>.</span><Link to={""} onClick={() => this.displaySIngleQuestion(data.question_id)}>
+   <div className="question">{data.question_id}<span>.</span><Link to={""} onClick={() => this.displaySIngleQuestion(data.question_id)}>
    {data.questions}
               </Link></div>
-   <div className="row">
-    <div className="row-md-2">Author:</div>
-    <div className="row-md-2">{data.user_name}</div>
-    <div className="row-md-2">Date:</div>
-    <div className="row-md-2"><Moment format="YYYY/MM/DD">{data.question_date}</Moment></div>
+   <div className="row question-info">
+    <div className="row-md-2 date-author">Author:</div>
+    <div className="row-md-2 date-author">{data.user_name}</div>
+    <div className="row-md-2 date-author">Date:</div>
+    <div className="row-md-2 date-author"><Moment format="YYYY/MM/DD">{data.question_date}</Moment></div>
    </div>
-   
+   <hr />
    </div>
   ));}
 }

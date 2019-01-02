@@ -11,7 +11,7 @@ ShallowWrapper {
         },
       }
     }
-    SingleQuestionAction={[MockFunction]}
+    SingleQuestionAction={[Function]}
     ViewSingleQuestion={
       Object {
         "item": Object {

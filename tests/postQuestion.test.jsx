@@ -2,6 +2,8 @@ import React from "react";
 import { shallow } from "enzyme";
 import  { PostQuestion } from "../src/containers/questions/postQuestion";
 import postQuestionReducer from "../src/reducers/postQuestionReducer";
+import { PostQuestionAction } from "../src/actions/postQuestionAction";
+import mockStore from "./mockStore";
 
 it("postQuestion test", () => {
   const props = {
@@ -31,4 +33,12 @@ it("Test PostQuestion reducder", () => {
     payload: {}
   };
   expect(postQuestionReducer(undefined, action)) !== initialState;
+});
+
+it("test single question action", () => {
+  const accessToken = "tokentokensecret";
+  const store = mockStore({});
+  fetch.mockResponse(JSON.stringify({ access_token: "12345" }));
+  store.dispatch(PostQuestionAction());
+  expect(store.getActions()).toEqual([]);
 });
