@@ -7,3 +7,21 @@ body{
 .body-container{
     padding-top: 50px;
 }
+.date-author{
+    padding-right: 20px;
+    padding-left: 10px;
+    
+}
+.question{
+    background-color: #F0F8FF;
+}
+.img-responsive{
+    width:100%;
+}
+.answer-question{
+    background-color: #F0F8FF;
+    margin-bottom: 10px;
+}
+.answer{
+    background-color: #F5F5F5;
+}

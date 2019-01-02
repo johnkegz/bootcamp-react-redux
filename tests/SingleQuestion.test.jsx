@@ -2,7 +2,8 @@ import React from "react";
 import { shallow } from "enzyme";
 import SingleQuestion from "../src/containers/questions/SingleQuestion";
 import singleQuestionReducer from "../src/reducers/singleQuestionReducer";
-
+import mockStore from "./mockStore";
+import { SingleQuestionAction } from "../src/actions/singleQuestionAction";
 it("login test", () => {
   const props = {
     LoginResults: {
@@ -26,8 +27,10 @@ it("login test", () => {
     SingleQuestionAction: () => jest.fn()
   };
 
-  const component = shallow(<SingleQuestion {...props} SingleQuestionAction={jest.fn()} />);
+  const component = shallow(<SingleQuestion {...props} />);
   expect(component).toMatchSnapshot();
+  const instance = component.instance();
+  console.log(instance);
   
 });
 
@@ -40,5 +43,12 @@ it("Test SingleQuestion reducder", () => {
     payload: {}
   };
   expect(singleQuestionReducer(undefined, action)) !== initialState;
+});
+it("test single question action", () => {
+  const accessToken = "tokentokensecret";
+  const store = mockStore({});
+  fetch.mockResponse(JSON.stringify({ access_token: "12345" }));
+  store.dispatch(SingleQuestionAction());
+  expect(store.getActions()).toEqual([]);
 });
 

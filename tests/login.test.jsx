@@ -2,7 +2,8 @@ import React from "react";
 import { shallow } from "enzyme";
 import { Login } from "../src/containers/login/Login";
 import loginReducer from "../src/reducers/loginReducer";
-
+import { LoginAction } from "../src/actions/loginAction";
+import mockStore from "./mockStore";
 
 it("login test", () => {
   const props = {
@@ -34,14 +35,10 @@ it("Test login reducder", () => {
   expect(loginReducer(undefined, action)) !== initialState;
 });
 
-// it("Test login Action", () => {
-
-//   fetch.mockResponse(JSON.stringify({ access_token: "12345" }));
-//   const data = {email: "w@gmail.com", password: "12345678"}
-//   const store = mockStore();
-//   store.dispatch(LoginAction(data)).then(()=>{
-//     expect(store.getActions()).toEqual([
-//       { type: "USER_VERIFIED", payload: value }
-//     ]);
-//   });
-// });
+it("test login action", () => {
+  const accessToken = "tokentokensecret";
+  const store = mockStore({});
+  fetch.mockResponse(JSON.stringify({ access_token: "12345" }));
+  store.dispatch(LoginAction());
+  expect(store.getActions()).toEqual([]);
+});

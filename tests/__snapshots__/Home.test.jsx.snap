@@ -43,9 +43,10 @@ ShallowWrapper {
               <div
                 className="card-header unique-color-dark  white-text text-center mt-0 py-4"
               >
-                <span>
-                  Stackoverflow lite
-                </span>
+                <img
+                  className="img-responsive"
+                  src="src/components/water.jpg"
+                />
               </div>
             </div>
             <div
@@ -74,9 +75,10 @@ ShallowWrapper {
               <div
                 className="card-header unique-color-dark  white-text text-center mt-0 py-4"
               >
-                <span>
-                  Stackoverflow lite
-                </span>
+                <img
+                  className="img-responsive"
+                  src="src/components/water.jpg"
+                />
               </div>
             </div>
             <div
@@ -101,9 +103,10 @@ ShallowWrapper {
               <div
                 className="card-header unique-color-dark  white-text text-center mt-0 py-4"
               >
-                <span>
-                  Stackoverflow lite
-                </span>
+                <img
+                  className="img-responsive"
+                  src="src/components/water.jpg"
+                />
               </div>
             </div>
             <div
@@ -125,9 +128,10 @@ ShallowWrapper {
                 <div
                   className="card-header unique-color-dark  white-text text-center mt-0 py-4"
                 >
-                  <span>
-                    Stackoverflow lite
-                  </span>
+                  <img
+                    className="img-responsive"
+                    src="src/components/water.jpg"
+                  />
                 </div>
               </div>,
               <div
@@ -148,9 +152,10 @@ ShallowWrapper {
                 "children": <div
                   className="card-header unique-color-dark  white-text text-center mt-0 py-4"
                 >
-                  <span>
-                    Stackoverflow lite
-                  </span>
+                  <img
+                    className="img-responsive"
+                    src="src/components/water.jpg"
+                  />
                 </div>,
               },
               "ref": null,
@@ -159,9 +164,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <span>
-                    Stackoverflow lite
-                  </span>,
+                  "children": <img
+                    className="img-responsive"
+                    src="src/components/water.jpg"
+                  />,
                   "className": "card-header unique-color-dark  white-text text-center mt-0 py-4",
                 },
                 "ref": null,
@@ -170,11 +176,12 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Stackoverflow lite",
+                    "className": "img-responsive",
+                    "src": "src/components/water.jpg",
                   },
                   "ref": null,
-                  "rendered": "Stackoverflow lite",
-                  "type": "span",
+                  "rendered": null,
+                  "type": "img",
                 },
                 "type": "div",
               },
@@ -230,9 +237,10 @@ ShallowWrapper {
                 <div
                   className="card-header unique-color-dark  white-text text-center mt-0 py-4"
                 >
-                  <span>
-                    Stackoverflow lite
-                  </span>
+                  <img
+                    className="img-responsive"
+                    src="src/components/water.jpg"
+                  />
                 </div>
               </div>
               <div
@@ -261,9 +269,10 @@ ShallowWrapper {
                 <div
                   className="card-header unique-color-dark  white-text text-center mt-0 py-4"
                 >
-                  <span>
-                    Stackoverflow lite
-                  </span>
+                  <img
+                    className="img-responsive"
+                    src="src/components/water.jpg"
+                  />
                 </div>
               </div>
               <div
@@ -288,9 +297,10 @@ ShallowWrapper {
                 <div
                   className="card-header unique-color-dark  white-text text-center mt-0 py-4"
                 >
-                  <span>
-                    Stackoverflow lite
-                  </span>
+                  <img
+                    className="img-responsive"
+                    src="src/components/water.jpg"
+                  />
                 </div>
               </div>
               <div
@@ -312,9 +322,10 @@ ShallowWrapper {
                   <div
                     className="card-header unique-color-dark  white-text text-center mt-0 py-4"
                   >
-                    <span>
-                      Stackoverflow lite
-                    </span>
+                    <img
+                      className="img-responsive"
+                      src="src/components/water.jpg"
+                    />
                   </div>
                 </div>,
                 <div
@@ -335,9 +346,10 @@ ShallowWrapper {
                   "children": <div
                     className="card-header unique-color-dark  white-text text-center mt-0 py-4"
                   >
-                    <span>
-                      Stackoverflow lite
-                    </span>
+                    <img
+                      className="img-responsive"
+                      src="src/components/water.jpg"
+                    />
                   </div>,
                 },
                 "ref": null,
@@ -346,9 +358,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <span>
-                      Stackoverflow lite
-                    </span>,
+                    "children": <img
+                      className="img-responsive"
+                      src="src/components/water.jpg"
+                    />,
                     "className": "card-header unique-color-dark  white-text text-center mt-0 py-4",
                   },
                   "ref": null,
@@ -357,11 +370,12 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": "Stackoverflow lite",
+                      "className": "img-responsive",
+                      "src": "src/components/water.jpg",
                     },
                     "ref": null,
-                    "rendered": "Stackoverflow lite",
-                    "type": "span",
+                    "rendered": null,
+                    "type": "img",
                   },
                   "type": "div",
                 },

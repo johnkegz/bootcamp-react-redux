@@ -11,11 +11,11 @@ export class SingleQuestion extends React.Component {
         const question = data.questions;
         const ans = data.answers;
         const answerElements = ans.map((answer, i) => {
-          return <p key={i}>{answer.answer}</p>;
+          return <p key={i} className="answer"><span> * </span>{answer.answer}</p>;
         });
         return (
           <div key={data.question_id} className="txt-s">
-            {question}
+            <div className="answer-question">{question}</div>
             {answerElements}
           </div>
         );
@@ -25,8 +25,16 @@ export class SingleQuestion extends React.Component {
   render() {
    
     return (
-      <div className="body-container">
+      <div className="body-container ">
+      <div className="row">
+        <div className="col-md-12">
+          <div className="card cloudy-knoxville-gradient mb-4 wow fadeIn">
+          <div className="card-body">
         {this.showEditData()}
+        </div>
+      </div>
+      </div>
+      </div>
       </div>
     );
   }
