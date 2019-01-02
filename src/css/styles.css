@@ -25,3 +25,12 @@ body{
 .answer{
     background-color: #F5F5F5;
 }
+@media (max-width: 991px) {
+.collapse:not(.show) {
+    display: inline-block;
+    background-color: silver;
+}
+.body-container{
+    padding-top: 130px;
+}
+}
