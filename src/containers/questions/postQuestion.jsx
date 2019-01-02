@@ -17,6 +17,7 @@ export class PostQuestion extends React.Component {
       question: this.state.question
     }
     this.props.PostQuestionAction(data);
+    window.location.replace("/");
   };
 
   editDataHeading() {
