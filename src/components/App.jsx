@@ -9,6 +9,7 @@ import Login from "../containers/login/Login";
 
 import postQuestion from "../containers/questions/postQuestion";
 import SingleQuestion from "../containers/questions/SingleQuestion";
+import SignOut from "./signOut";
 const App = () => (
   <Provider store={store}>
     <Router>
@@ -21,6 +22,7 @@ const App = () => (
             <Route path="/login" component={Login} />
             <Route path="/postQuestion" component={postQuestion} />
             <Route path="/singlequestion/:id" component={SingleQuestion} />
+            <Route path="/signout" component={SignOut} />
           </div>
         </Page>
       </React.Fragment>
