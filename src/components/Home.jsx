@@ -24,7 +24,7 @@ editDataHeading() {
 showEditData() {
   
   if(this.props.ViewAllQuestionResults.item){
-    console.log("props", this.props.ViewAllQuestionResults.item);
+    
   return Array.from(this.props.ViewAllQuestionResults.item).map(data => (
     <div key={data.question_id}>
    <div>{data.question_id}<span>.</span><Link to={""} onClick={() => this.displaySIngleQuestion(data.question_id)}>

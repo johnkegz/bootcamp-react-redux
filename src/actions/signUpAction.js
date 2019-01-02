@@ -1,7 +1,7 @@
 import { SIGN_UP } from "./types";
 
 export const signUpAction = (data) => dispatch =>{
-  fetch("http://127.0.0.1:5000/api/v1/auth/signup", {
+  return fetch("http://127.0.0.1:5000/api/v1/auth/signup", {
     method: "POST",
     body: JSON.stringify(data),
     headers: {

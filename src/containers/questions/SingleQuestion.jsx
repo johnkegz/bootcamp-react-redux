@@ -1,5 +1,5 @@
 import React from "react";
-import { SingleQuestionAction } from "../../actions/SingleQuestionAction";
+import { SingleQuestionAction } from "../../actions/singleQuestionAction";
 import { connect } from "react-redux";
 export class SingleQuestion extends React.Component {
   componentDidMount() {
