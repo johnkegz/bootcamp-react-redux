@@ -45,7 +45,7 @@ ShallowWrapper {
               >
                 <img
                   className="img-responsive"
-                  src="src/components/water.jpg"
+                  src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                 />
               </div>
             </div>
@@ -77,7 +77,7 @@ ShallowWrapper {
               >
                 <img
                   className="img-responsive"
-                  src="src/components/water.jpg"
+                  src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                 />
               </div>
             </div>
@@ -105,7 +105,7 @@ ShallowWrapper {
               >
                 <img
                   className="img-responsive"
-                  src="src/components/water.jpg"
+                  src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                 />
               </div>
             </div>
@@ -130,7 +130,7 @@ ShallowWrapper {
                 >
                   <img
                     className="img-responsive"
-                    src="src/components/water.jpg"
+                    src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                   />
                 </div>
               </div>,
@@ -154,7 +154,7 @@ ShallowWrapper {
                 >
                   <img
                     className="img-responsive"
-                    src="src/components/water.jpg"
+                    src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                   />
                 </div>,
               },
@@ -166,7 +166,7 @@ ShallowWrapper {
                 "props": Object {
                   "children": <img
                     className="img-responsive"
-                    src="src/components/water.jpg"
+                    src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                   />,
                   "className": "card-header unique-color-dark  white-text text-center mt-0 py-4",
                 },
@@ -177,7 +177,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "className": "img-responsive",
-                    "src": "src/components/water.jpg",
+                    "src": "https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg",
                   },
                   "ref": null,
                   "rendered": null,
@@ -239,7 +239,7 @@ ShallowWrapper {
                 >
                   <img
                     className="img-responsive"
-                    src="src/components/water.jpg"
+                    src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                   />
                 </div>
               </div>
@@ -271,7 +271,7 @@ ShallowWrapper {
                 >
                   <img
                     className="img-responsive"
-                    src="src/components/water.jpg"
+                    src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                   />
                 </div>
               </div>
@@ -299,7 +299,7 @@ ShallowWrapper {
                 >
                   <img
                     className="img-responsive"
-                    src="src/components/water.jpg"
+                    src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                   />
                 </div>
               </div>
@@ -324,7 +324,7 @@ ShallowWrapper {
                   >
                     <img
                       className="img-responsive"
-                      src="src/components/water.jpg"
+                      src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                     />
                   </div>
                 </div>,
@@ -348,7 +348,7 @@ ShallowWrapper {
                   >
                     <img
                       className="img-responsive"
-                      src="src/components/water.jpg"
+                      src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                     />
                   </div>,
                 },
@@ -360,7 +360,7 @@ ShallowWrapper {
                   "props": Object {
                     "children": <img
                       className="img-responsive"
-                      src="src/components/water.jpg"
+                      src="https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg"
                     />,
                     "className": "card-header unique-color-dark  white-text text-center mt-0 py-4",
                   },
@@ -371,7 +371,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "img-responsive",
-                      "src": "src/components/water.jpg",
+                      "src": "https://res.cloudinary.com/dksxmwjqs/image/upload/v1546420242/zstzna8xsm5zv8c5laxm.jpg",
                     },
                     "ref": null,
                     "rendered": null,
