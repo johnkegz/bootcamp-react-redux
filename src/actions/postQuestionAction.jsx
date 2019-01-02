@@ -2,7 +2,7 @@ import { POST_QUESTION } from "./types";
 
 export const PostQuestionAction = (data) => dispatch =>{
   
-  return fetch("https://bootcamp-react-redux.herokuapp.com/api/v1/questions", {
+  return fetch("https://stackoverflow-lite2.herokuapp.com/api/v1/questions", {
     method: "POST",
     body: JSON.stringify(data),
     

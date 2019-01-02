@@ -1,7 +1,7 @@
 import { SIGN_UP } from "./types";
 
 export const signUpAction = (data) => dispatch =>{
-  return fetch("https://bootcamp-react-redux.herokuapp.com/api/v1/auth/signup", {
+  return fetch("https://stackoverflow-lite2.herokuapp.com/api/v1/auth/signup", {
     method: "POST",
     body: JSON.stringify(data),
     headers: {
